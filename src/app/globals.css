@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #f5f1ea;
+  color: #0f1720;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.page-shell {
+  background:
+    radial-gradient(circle at top left, rgba(212, 194, 167, 0.28), transparent 28%),
+    linear-gradient(180deg, #f5f1ea 0%, #efe6da 100%);
+}
